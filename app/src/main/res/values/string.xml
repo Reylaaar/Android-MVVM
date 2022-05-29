@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_getting_contact_details">Error when getting contact details</string>
+    <string name="error_getting_user">Invalid user account</string>
+    <string name="login">Login</string>
+    <string name="android_mvvm">Android MVVM</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="register">Register</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="cpassword">Confirm Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Name</string>
+    <string name="app_name_v2">Android MVVM</string>
+
+</resources>
