@@ -63,7 +63,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:text="@={viewmodel.email}"
                     android:elevation="1dp"
                     android:hint="@string/email"
                     android:textColorHint="@color/colorGray">
@@ -71,7 +70,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
+                        android:text="@={viewmodel.email}"
                         android:inputType="textEmailAddress" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -83,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:text="@={viewmodel.password}"
+
                     android:elevation="1dp"
                     android:hint="@string/password"
                     app:passwordToggleEnabled="true"
@@ -92,7 +91,7 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
+                        android:text="@={viewmodel.password}"
                         android:inputType="textEmailAddress" />
 
                 </com.google.android.material.textfield.TextInputLayout>
