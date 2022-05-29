@@ -16,6 +16,8 @@ class LoginActivity : AppCompatActivity(), AuthListener {
         val viewModelFactory = AuthViewModelFactory()
         val viewModel = ViewModelProvider(this,viewModelFactory)[AuthViewModel::class.java]
 
+        binding.viewmodel = viewModel
+        viewModel.authListener = this
     }
 
     override fun onStarted() {
